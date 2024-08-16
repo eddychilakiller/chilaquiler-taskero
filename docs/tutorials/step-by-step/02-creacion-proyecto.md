@@ -184,7 +184,7 @@ El objetivo de este paso es configurar la estructura inicial tanto del backend c
    - Crea módulos separados para diferentes funcionalidades, como autenticación, gestión de tareas, y dashboard.
 
 6. **Configurar rutas iniciales**:
-   - Abre el archivo `app-routing.module.ts` y configura las rutas iniciales, por ejemplo:
+   - Abre el archivo `app-routes.module.ts` y configura las rutas iniciales, por ejemplo:
    
    ```typescript
    import { NgModule } from '@angular/core';
@@ -202,6 +202,12 @@ El objetivo de este paso es configurar la estructura inicial tanto del backend c
    })
    export class AppRoutingModule { }
    ```
+##### **1.2.2.2.1 Crear un modulo de Ejemplo**
+   - Crea un módulo de ejemplo
+    ```bash
+        cd frontend/src/app/modules
+        ng generate module dashboard
+    ```   
 
 ##### **1.2.2.3 Crear un Componente de Ejemplo**
 
@@ -209,7 +215,8 @@ El objetivo de este paso es configurar la estructura inicial tanto del backend c
    - Crea un componente de ejemplo para verificar que todo esté funcionando correctamente:
    
    ```bash
-   ng generate component components/task-list
+    cd frontend/src/app/
+    ng generate component components/task-list
    ```
    
    - Este comando genera un componente `TaskListComponent` dentro de la carpeta `components`.

@@ -1,7 +1,3 @@
-Aquí tienes el README completamente integrado para tu proyecto **chilaquiler-taskero**:
-
----
-
 # **chilaquiler-taskero**
 
 ## **Descripción del Proyecto**

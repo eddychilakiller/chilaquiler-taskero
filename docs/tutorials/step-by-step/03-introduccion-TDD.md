@@ -154,23 +154,3 @@ Supongamos que queremos implementar la funcionalidad de agregar una tarea en el 
    ```
 
    - Después de la refactorización, volvemos a ejecutar las pruebas para asegurarnos de que todo sigue funcionando correctamente.
-
----
-
-### **Ubicación de la Documentación en el Proyecto**
-
-Esta documentación sobre TDD puede ser colocada en la carpeta `docs/tutorials/step-by-step` del proyecto, bajo un archivo llamado `03-introduccion-TDD.md`. De esta manera, los desarrolladores y participantes del taller tendrán acceso a una guía clara y detallada sobre TDD y cómo aplicarlo en el proyecto **chilaquiler-taskero**.
-
-```bash
-chilaquiler-taskero/
-│
-├── docs/
-│   ├── tutorials/
-│   │   ├── step-by-step/
-│   │   │   ├── 01-instalacion-entorno-mac.md   # Documentación del punto 1.1
-│   │   │   ├── 02-creacion-proyecto.md         # Documentación del punto 1.2
-│   │   │   ├── 03-introduccion-TDD.md          # Documentación del punto 2.1
-│   │   │   └── ...                             # Otros archivos de la guía paso a paso
-│   │   └── ...
-│   └── ...
-```

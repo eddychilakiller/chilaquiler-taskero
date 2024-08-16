@@ -174,7 +174,3 @@ chilaquiler-taskero/
 │   │   └── ...
 │   └── ...
 ```
-
-Este archivo proporcionará una base sólida sobre TDD, explicando tanto los conceptos como las prácticas
-
- que se aplicarán durante el desarrollo del proyecto.
